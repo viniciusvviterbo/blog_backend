@@ -1,9 +1,5 @@
 **<h1 style="text-align: center">Blog API</h1>**
 
-# docker run --rm -d -p 27017:27017 --name blog_database mongo
-
-
-
 API that handles requests from the frontend application and manages the database instance with entities such as `Users` and `Articles`.
 
 # Setting the project up
@@ -51,8 +47,6 @@ docker run \
 
 <sub>*Note: The docker **must** be fed a `.env` file with `NODE_ENV` set to production for the application to identify its running environment.</sub>
 
-
-
 # Usage
 
 The API is now accessible at `http://localhost:4400`. Feel free to execute an HTTP request with the following methods:
@@ -62,7 +56,6 @@ The API is now accessible at `http://localhost:4400`. Feel free to execute an HT
 - `PUT`
 - `PATCH`
 - `DELETE`
-
 
 ---
 
