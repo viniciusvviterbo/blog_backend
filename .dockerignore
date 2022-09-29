@@ -1,0 +1,16 @@
+# Ignoring git and cache folders
+.git
+.cache
+
+# Ignoring all the markdown
+*.md
+
+# Ignoring dockerignore
+.dockerignore
+
+# Ignoring environment file
+.env
+
+# Ignoring local modules and debug logs
+node_modules
+npm-debug.log
