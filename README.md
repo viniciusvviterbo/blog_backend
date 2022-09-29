@@ -46,7 +46,7 @@ docker run \
   viniciusvviterbo/blog_backend:latest
 ```
 
-<sub>*Note: The docker **must** be fed a `.env` file with `NODE_ENV` set to production for the application to identify its running environment.</sub>
+<sub>*Note: The docker **must** be fed a `.env` file with `NODE_ENV` set to `prod` for the application to identify its running environment.</sub>
 
 # Usage
 
