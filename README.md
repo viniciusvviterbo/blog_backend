@@ -21,12 +21,13 @@ Run* the existing image by executing:
 ```bash
 docker pull viniciusvviterbo/blog_backend:latest
 
-docker run -d \
+docker run \
+  -d \
   --rm \
   -p 4400:4400 \
-  --env-file=.env \
+  --env-file ./.env \
   --name blog_backend \
-  --link db:mongo \
+  --link blog_database:mongo \
   viniciusvviterbo/blog_backend:latest
 ```
 
