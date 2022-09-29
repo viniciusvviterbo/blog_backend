@@ -1,4 +1,4 @@
-**<h1 style="text-align: center">Blog API</h1>**
+<h1 align="center">Blog API</h1>
 
 API that handles requests from the frontend application and manages the database instance with entities such as `Users` and `Articles`.
 
